@@ -30,7 +30,7 @@ export function ContactForm() {
       {isSubmitted ? (
         <div className="text-center p-8 bg-[#002222] rounded-lg">
           <h3 className="text-xl font-semibold mb-2">Thank you for your message!</h3>
-          <p className="text-gray-400">I'll get back to you as soon as possible.</p>
+          <p className="text-gray-400">I&apos;ll get back to you as soon as possible.</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
